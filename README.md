@@ -3,7 +3,7 @@
 This project consists of two microservices designed to simulate a payment gateway middleware. The two microservices are:
 
 1. **Bank Service (`bankservice`)**
-2. **Bank Middleware (`bankmiddleware`)**
+2. **Gateway Middleware (`gatewaymiddleware`)**
 
 ## Bank Service
 
@@ -26,9 +26,9 @@ The `bankservice` microservice handles various banking operations such as authen
     - `GET /api/transactions/by-client/{clientId}`: Retrieves transactions for a specific client.
     - `GET /api/transactions/all`: Retrieves all transactions.
 
-## Bank Middleware
+## Gateway Middleware
 
-The `bankmiddleware` microservice handles payment initiation and securely communicates with the `bankservice` for payment processing. It encrypts the request before sending it to the `bankservice`.
+The `gatewaymiddleware` microservice handles payment initiation and securely communicates with the `bankservice` for payment processing. It encrypts the request before sending it to the `bankservice`.
 
 ### Endpoint
 
