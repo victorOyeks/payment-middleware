@@ -10,7 +10,7 @@
 	<description>Demo project for Spring Boot Bank Middleware</description>
 	<modules>
 		<module>bankservice</module>
-		<module>bankmiddleware</module>
+		<module>gatewaymiddleware</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
